@@ -1,0 +1,37 @@
+*{margin: 0;padding: 0;}
+/* 设置页面中主营页面的文字居中 */
+.container>div:first-child{text-align: center};
+.xian{width: 300px;height: 200px;border: 1px solid #1564db;background-color: #1564db;}
+/* 设置第一排四张图片的样式 */
+a,a:hover{text-decoration: none;}
+/* 设置a标签的字体大小和样式 */
+.f1{font-family: "微软雅黑", "Microsoft Yahei", "Arial";
+    text-align: center;
+}
+
+.f1 a:first-child{
+    font-size: 20px;
+    color: #014099;
+    line-height: 30px;
+ }
+
+.f1 p{font-size: 12px;
+    height: 75px;
+    line-height: 24px;
+    color: #777;}
+
+.f1 a:last-child{
+    width: 80px;
+    height: 26px;
+    border-radius: 15px;
+    border: 1px solid #014099;
+    font-size: 16px;
+    color: #014099;
+    line-height: 26px;
+    display: block;
+    margin: 15px auto 0;
+}
+.f1 a:last-child:hover{
+    background-color: #1564db;
+    color: aliceblue
+}
