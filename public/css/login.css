@@ -1,7 +1,13 @@
 *{margin: 0;padding: 0;}
 /* 设置页面中主营页面的文字居中 */
-.container>div:first-child{text-align: center};
-.xian{width: 300px;height: 200px;border: 1px solid #1564db;background-color: #1564db;}
+.container{text-align: center};
+/* p标签内容的字体大小 */
+body>.container p{font-size: 0.75rem !important;
+    height: 75px;
+    line-height: 24px;
+    color: #777;}
+.xian{width: 40px;height: 50px;border-top: 2px solid #0c4090; 
+      margin: 15px auto 0;}
 /* 设置第一排四张图片的样式 */
 a,a:hover{text-decoration: none;}
 /* 设置a标签的字体大小和样式 */
@@ -15,11 +21,7 @@ a,a:hover{text-decoration: none;}
     line-height: 30px;
  }
 
-.f1 p{font-size: 12px;
-    height: 75px;
-    line-height: 24px;
-    color: #777;}
-
+/* 第一部分a标签的样式 */
 .f1 a:last-child{
     width: 80px;
     height: 26px;
@@ -31,7 +33,18 @@ a,a:hover{text-decoration: none;}
     display: block;
     margin: 15px auto 0;
 }
-.f1 a:last-child:hover{
+/* 当鼠标悬停在div上时 a标签的样式改变 变为蓝色背景 白色字体 */
+.f1 a:last-child:hover,.f1:hover a:last-child{
     background-color: #1564db;
     color: aliceblue
 }
+
+/* 第二行的背景颜色 */
+.f2{background-color: #f8f8f8;
+     margin-left:-100px; margin-right:-100px;
+    padding: 60px 40px 40px 40px}
+
+ .f2 div:nth-child(3) {text-align: left}  
+
+ /* 第三行的内容 */
+ .f3 img{width: 298px; height: 285px;}
