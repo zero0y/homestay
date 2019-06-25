@@ -47,4 +47,4 @@ a,a:hover{text-decoration: none;}
  .f2 div:nth-child(3) {text-align: left}  
 
  /* 第三行的内容 */
- .f3 img{width: 298px; height: 285px;}
+ .f3 img,.f4 img{width: 298px; height: 285px;}
