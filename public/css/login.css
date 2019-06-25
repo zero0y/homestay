@@ -48,3 +48,8 @@ a,a:hover{text-decoration: none;}
 
  /* 第三行的内容 */
  .f3 img,.f4 img{width: 298px; height: 285px;}
+
+ /* 第四层的div下边框 */
+ .f4>div:not(:first-child)>div{
+     border-bottom:2px solid #014099 
+ }
